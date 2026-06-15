@@ -1,0 +1,20 @@
+.gallery-page {
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.gallery-page h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.gallery-page p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}

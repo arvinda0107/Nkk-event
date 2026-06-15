@@ -1,0 +1,44 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+
+    background-image:
+        
+        url("services/hero.png") ;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content{
+    color:rgb(235, 230, 230);
+}
+
+.hero-content h1{
+    font-size:65px;
+    font-weight:700;
+}
+
+.hero-content span{
+    color:#ff4d6d;
+}
+
+.hero-content p{
+    margin:25px 0;
+    font-size:22px;
+}
+
+.hero-content button{
+    padding:15px 35px;
+    background:#ff4d6d;
+    color:#fff;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+}

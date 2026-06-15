@@ -1,0 +1,29 @@
+.services-page {
+    padding-top: 90px;
+}
+
+.services-banner {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff5f7;
+}
+
+.services-banner h1 {
+    font-size: 50px;
+    color: #222;
+}
+
+.services-banner p {
+    margin-top: 15px;
+    color: #666;
+}
+
+.services-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 30px;
+}
