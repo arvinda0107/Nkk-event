@@ -19,12 +19,12 @@ function Contact() {
 
           <div className="info-box">
             <h3>📍 Address</h3>
-            <p>Mysore, Karnataka, India</p>
+            <p>Bangalore, Karnataka, India</p>
           </div>
 
           <div className="info-box">
             <h3>📞 Phone</h3>
-            <p>+91 98765 43210</p>
+            <p>+91 7483930350</p>
           </div>
 
           <div className="info-box">

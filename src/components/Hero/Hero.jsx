@@ -1,6 +1,9 @@
 import "./Hero.css";
+import { useNavigate } from "react-router-dom";
 
 function Hero() {
+  const navigate = useNavigate();
+
   return (
     <section className="hero">
       <div className="hero-content">
@@ -13,7 +16,9 @@ function Hero() {
           Birthday • Wedding • Baby Shower • Anniversary • Corporate Events
         </p>
 
-        <button>Explore Events</button>
+        <button onClick={() => navigate("/services")}>
+          Explore Events
+        </button>
       </div>
     </section>
   );

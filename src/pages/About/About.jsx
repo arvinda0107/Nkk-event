@@ -5,7 +5,7 @@ import "./About.css";
 function About() {
   return (
     <>
-      <Navbar />
+    <Navbar />
 
       <section className="about-banner">
         <h1>About NKK Events</h1>
@@ -31,7 +31,7 @@ function About() {
         </div>
 
         <div className="about-image">
-          <img src="/about/about.jpg" alt="About NKK Events" />
+          <img src="/images/logo.jpeg" alt="About NKK Events" />
         </div>
 
       </section>
@@ -85,6 +85,7 @@ function About() {
       </section>
 
       <Footer />
+      
     </>
   );
 }
